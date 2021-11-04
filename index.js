@@ -12,7 +12,7 @@ const DP = new Pool({
 app.use(cors());
 app.use(express.json());
 app.listen(port,()=>{
-    console.log('hello');
+    console.log(port);
 })
 
 app.post('/course',async(req,res)=>{
